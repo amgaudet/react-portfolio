@@ -1,5 +1,5 @@
 import React from 'react';
-import trails from '../assets/trails.png';
+import trails from '../../assets/trails.png';
 
 const Portfolio = () => {
   return (
@@ -10,7 +10,7 @@ const Portfolio = () => {
         </img>
         <a href="https://western-nc-trail-app.herokuapp.com/">Trail Hound App</a>
         <a href="https://github.com/amgaudet/trail-hiking-app" >
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
       </div>
     </div>
