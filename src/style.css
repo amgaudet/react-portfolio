@@ -7,6 +7,7 @@ a {
   color: #C62A88;
   font-weight: bold;
   text-decoration: none;
+  font-size: larger;
 }
 
 a:hover {
@@ -17,4 +18,8 @@ a:hover {
   background-color: black;
   border-color: #03C4A1;
   border-width: 5px;
+}
+
+.fa {
+  font-size: 40px;
 }

@@ -15,8 +15,10 @@ const Portfolio = () => {
           <img classname="card-img" src={trails} alt='Trail hiking app'>
           </img>
           <div className="card-body d-flex justify-content-around">
-            <a href="https://western-nc-trail-app.herokuapp.com/">Deployed App</a>
-            <a href="https://github.com/amgaudet/trail-hiking-app" >Github Repo</a>
+            <a href="https://western-nc-trail-app.herokuapp.com/">
+              <i className="fa fa-desktop"></i></a>
+            <a href="https://github.com/amgaudet/trail-hiking-app" >
+              <i className="fa fa-github"></i></a>
           </div>
         </div>
         <div className="card mx-3 my-5">
@@ -24,8 +26,10 @@ const Portfolio = () => {
           <img classname="card-img" src={resume} alt='Resume Builder'>
           </img>
           <div className="card-body  d-flex justify-content-around">
-            <a href="https://rapid-resume.herokuapp.com/">Deployed App</a>
-            <a href="https://github.com/morrisbianco/resume-builder" >Github Repo</a>
+            <a href="https://rapid-resume.herokuapp.com/">
+              <i className="fa fa-desktop"></i></a>
+            <a href="https://github.com/morrisbianco/resume-builder" >
+              <i className="fa fa-github"></i></a>
           </div>
         </div>
         <div className="card mx-3 my-5">
@@ -33,8 +37,10 @@ const Portfolio = () => {
           <img classname="card-img" src={pokemon} alt='Pokemon Team Builder'>
           </img>
           <div className="card-body  d-flex justify-content-around">
-            <a href="https://amgaudet.github.io/pokemon-team-builder/index.html">Deployed App</a>
-            <a href="https://github.com/amgaudet/pokemon-team-builder" >Github Repo</a>
+            <a href="https://amgaudet.github.io/pokemon-team-builder/index.html">
+              <i className="fa fa-desktop"></i></a>
+            <a href="https://github.com/amgaudet/pokemon-team-builder" >
+              <i className="fa fa-github"></i></a>
           </div>
         </div>
         <div className="card mx-3 my-5">
@@ -42,8 +48,10 @@ const Portfolio = () => {
           <img classname="card-img" src={fitness} alt='Fitness Tracker'>
           </img>
           <div className="card-body  d-flex justify-content-around">
-            <a href="https://boiling-spire-57268.herokuapp.com/">Deployed App</a>
-            <a href="https://github.com/amgaudet/workout-tracker" >Github Repo</a>
+            <a href="https://boiling-spire-57268.herokuapp.com/">
+              <i className="fa fa-desktop"></i></a>
+            <a href="https://github.com/amgaudet/workout-tracker" >
+              <i className="fa fa-github"></i></a>
           </div>
         </div>
       </div>
