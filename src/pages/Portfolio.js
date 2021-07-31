@@ -3,6 +3,7 @@ import trails from '../assets/trails.png';
 import resume from '../assets/resume.png';
 import pokemon from '../assets/pokemon.png';
 import fitness from '../assets/fitness.png';
+import '../style.css';
 
 const Portfolio = () => {
   return (

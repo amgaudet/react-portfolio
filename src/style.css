@@ -1,0 +1,20 @@
+body {
+  background-color: rgba(0, 0, 0, 0.884);
+  color: #03C4A1;
+}
+
+a {
+  color: #C62A88;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c7619e;
+}
+
+.card {
+  background-color: black;
+  border-color: #03C4A1;
+  border-width: 5px;
+}
