@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/react-demo/static/js/main.ebfc2b3b.chunk.js",
+    "main.js.map": "/react-demo/static/js/main.ebfc2b3b.chunk.js.map",
+    "runtime-main.js": "/react-demo/static/js/runtime-main.ddceee2d.js",
+    "runtime-main.js.map": "/react-demo/static/js/runtime-main.ddceee2d.js.map",
+    "static/css/2.4be38407.chunk.css": "/react-demo/static/css/2.4be38407.chunk.css",
+    "static/js/2.8e9d263e.chunk.js": "/react-demo/static/js/2.8e9d263e.chunk.js",
+    "static/js/2.8e9d263e.chunk.js.map": "/react-demo/static/js/2.8e9d263e.chunk.js.map",
+    "index.html": "/react-demo/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/react-demo/static/css/2.4be38407.chunk.css.map",
+    "static/js/2.8e9d263e.chunk.js.LICENSE.txt": "/react-demo/static/js/2.8e9d263e.chunk.js.LICENSE.txt",
+    "static/media/pokemon.03220eae.png": "/react-demo/static/media/pokemon.03220eae.png",
+    "static/media/resume.af427b60.png": "/react-demo/static/media/resume.af427b60.png",
+    "static/media/self.0d14c7f8.png": "/react-demo/static/media/self.0d14c7f8.png",
+    "static/media/trails.a47c9287.png": "/react-demo/static/media/trails.a47c9287.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ddceee2d.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.8e9d263e.chunk.js",
+    "static/js/main.ebfc2b3b.chunk.js"
+  ]
+}
