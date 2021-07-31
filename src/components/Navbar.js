@@ -1,35 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = ({ currentPage, handlePageChange }) => {
   return (
-    <div className="d-flex flex justify-space-between">
+    <div className="d-flex justify-content-between align-items-center p-4">
       <h1>Alan Gaudet</h1>
-      <nav>
-        <ul className="d-flex flex-row">
-          <li>
-            <a
-              href="#aboutme"
-              onClick={() => handlePageChange('AboutMe')}
-            >
-              About Me
-            </a>
-          </li>
-          <li>
-            <a
-              href="#portfolio"
-              onClick={() => handlePageChange('Portfolio')}
-            >
-              Portfolio
-            </a>
-          </li>
-          <li>
-            <a
-              href="#contacts"
-              onClick={() => handlePageChange('Contacts')}
-            >
-              Contact Me
-            </a>
-          </li>
+      <nav className="col-lg-4 d-flex">
+        <ul className="d-flex flex-row p-4">
+          <Link className="px-3" to="/">
+            About Me
+          </Link>
+          <Link className="px-3" to="/portfolio">
+            Portfolio
+          </Link><Link className="px-3" to="/contacts">
+            Contacts
+          </Link>
         </ul></nav>
     </div>
   )
