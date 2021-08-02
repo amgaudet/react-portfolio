@@ -4,6 +4,22 @@ body {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
+.container {
+  display: grid;
+  min-width: 320px;
+  margin: auto;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 75% 15%;
+  grid-template-areas: 
+  "navbar"
+  "aside aside aside"
+  "nav main main"
+  "footer";
+  justify-content: stretch;
+  align-items: stretch;
+  grid-gap: 8px;
+}
+
 a {
   color: #C62A88;
   font-weight: bold;
@@ -23,10 +39,6 @@ a:hover {
 
 .fa {
   font-size: 40px;
-}
-
-.navbar {
-  padding-left: 80px;
 }
 
 .landing {
