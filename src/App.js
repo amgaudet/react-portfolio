@@ -7,17 +7,21 @@ import Navbar from './components/Navbar'
 
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div>
       <Router>
         <Navbar />
-        <Route exact path='/'>
+        <Route exact path='/about'>
           <AboutMe />
         </Route>
         <Route exact path='/portfolio'>
           <Portfolio />
+        </Route>
+        <Route exact path='/react-portfolio'>
+          <Home />
         </Route>
         <Footer />
       </Router>
