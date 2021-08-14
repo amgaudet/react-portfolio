@@ -61,10 +61,14 @@ a:hover {
   padding-bottom: 8vh;
   padding-top: 3vh;
   padding-left: 10vh;
-  padding-right: 10vh;
+  padding-right: 10vh;    
 }
 
 .para {
   padding-left: 80px;
   padding-right: 80px;
+}
+
+.linkP {
+  font-size: 36px;
 }
