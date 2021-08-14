@@ -5,8 +5,8 @@ import '../style.css';
 const AboutMe = () => {
   return (
     <div className="about">
-      <h2 className="m-5 px-5">About Me</h2>
-      <div className="d-flex flex-row align-items-center m-5">
+      <h2 className="m-5">About Me</h2>
+      <div className="section d-flex flex-row align-items-center m-5">
         <img className="m-3" src={self} alt='avatar'></img>
         <p className="m-3 para">I am 33 years old Full Stack Web Developer currently in Clemmons, NC. I graduated
           from the UNC-Charlotte Full Stack Web Development Program in July 2021. Currently, I am refining my strengths

@@ -8,7 +8,7 @@ import '../style.css';
 const Portfolio = () => {
   return (
     <div>
-      <h2 className="m-5 px-5">Portfolio</h2>
+      <h2 className="m-5">Portfolio</h2>
       <div className="container d-flex flex-wrap justify-content-around">
         <div className="card mx-3 my-5">
           <h3 className="text-center">Trail Hiking App</h3>

@@ -41,6 +41,10 @@ a:hover {
   font-size: 40px;
 }
 
+.navbar h1 {
+  font-weight: bold;
+}
+
 .landing {
   font-family: 'Permanent Marker', 'Open Sans', Tahoma;
   background-color: rgba(0, 0, 0, 0.808);
@@ -56,7 +60,7 @@ a:hover {
   font-size: 60px;
 }
 
-.about {
+.about .section{
   padding-bottom: 8vh;
   padding-top: 3vh;
   padding-left: 10vh;
