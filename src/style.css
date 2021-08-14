@@ -41,13 +41,18 @@ a:hover {
   font-size: 40px;
 }
 
+.navbar {
+  border-bottom: #03C4A1;
+  border-bottom-style: solid;
+  border-width: 6px;
+}
+
 .navbar h1 {
   font-weight: bold;
 }
 
 .landing {
   font-family: 'Permanent Marker', 'Open Sans', Tahoma;
-  background-color: rgba(0, 0, 0, 0.808);
   padding-bottom: 20vh;
   padding-top: 20vh;
 }
