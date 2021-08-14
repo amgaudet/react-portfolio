@@ -1,7 +1,7 @@
 body {
   background-color: rgba(0, 0, 0, 0.884);
   color: #03C4A1;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Open Sans', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .container {
@@ -42,8 +42,7 @@ a:hover {
 }
 
 .landing {
-  font-family: 'GSL (Global StarCraft League)', sans-serif;
-  font-style: italic;
+  font-family: 'Permanent Marker', 'Open Sans', Tahoma;
   background-color: rgba(0, 0, 0, 0.808);
   padding-bottom: 20vh;
   padding-top: 20vh;
