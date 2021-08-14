@@ -14,7 +14,8 @@ const AboutMe = () => {
           Previously, I worked as a personal trainer at commercial gyms across
           North Carolina. I come from a competitive hands on environment and plan to implement those practices
           into my new found career path. In my spare time, I can be found playing a few select games, such as
-          Starcraft II or outside playing ultimate frisbee.</p>
+          Starcraft II or outside playing ultimate frisbee. I'm also a big fan of the original Mega Man series and
+          Mega Man X!</p>
       </div>
     </div>
   )
