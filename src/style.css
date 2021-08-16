@@ -75,8 +75,13 @@ a:hover {
 .para {
   padding-left: 80px;
   padding-right: 80px;
+  font-size: larger;
 }
 
 .linkP {
   font-size: 36px;
+}
+
+.icons {
+  margin-left: 8px;
 }
