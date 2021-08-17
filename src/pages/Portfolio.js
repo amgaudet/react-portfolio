@@ -3,13 +3,17 @@ import trails from '../assets/trails.png';
 import resume from '../assets/resume.png';
 import pokemon from '../assets/pokemon.png';
 import fitness from '../assets/fitness.png';
+import budget from '../assets/budget-tracker.png';
+import employee from '../assets/employeetracker.png';
 import '../style.css';
 
 const Portfolio = () => {
   return (
     <div>
       <h2 className="m-5">Portfolio</h2>
+
       <div className="container d-flex flex-wrap justify-content-around">
+
         <div className="card mx-3 my-5">
           <h3 className="text-center">Trail Hiking App</h3>
           <img classname="card-img" src={trails} alt='Trail hiking app'>
@@ -21,6 +25,7 @@ const Portfolio = () => {
               <i className="fa fa-github"></i></a>
           </div>
         </div>
+
         <div className="card mx-3 my-5">
           <h3 className="text-center">Rapid Resume</h3>
           <img classname="card-img" src={resume} alt='Resume Builder'>
@@ -32,6 +37,7 @@ const Portfolio = () => {
               <i className="fa fa-github"></i></a>
           </div>
         </div>
+
         <div className="card mx-3 my-5">
           <h3 className="text-center">Pokemon Builder</h3>
           <img classname="card-img" src={pokemon} alt='Pokemon Team Builder'>
@@ -43,6 +49,7 @@ const Portfolio = () => {
               <i className="fa fa-github"></i></a>
           </div>
         </div>
+
         <div className="card mx-3 my-5">
           <h3 className="text-center">Fitness Tracker</h3>
           <img classname="card-img" src={fitness} alt='Fitness Tracker'>
@@ -52,6 +59,32 @@ const Portfolio = () => {
               <i className="fa fa-desktop"></i></a>
             <a href="https://github.com/amgaudet/workout-tracker" >
               <i className="fa fa-github"></i></a>
+          </div>
+        </div>
+
+        <div className="card mx-3 my-5">
+          <h3 className="text-center">Offline Budget Tracker</h3>
+          <img classname="card-img" src={budget} alt='offline budget tracker'>
+          </img>
+          <div className="card-body  d-flex justify-content-around">
+            <a href="https://vibrant-fromage-51209.herokuapp.com/">
+              <i className="fa fa-desktop"></i></a>
+            <a href="https://github.com/amgaudet/offline-budget-tracker" >
+              <i className="fa fa-github"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <div className="card mx-3 my-5">
+            <h3 className="text-center">Fitness Tracker</h3>
+            <img classname="card-img" src={employee} alt='Employee System'>
+            </img>
+            <div className="card-body  d-flex justify-content-around">
+              <a href="https://drive.google.com/file/d/107zkEjG-axPE-JLvjdpQiwGX4N8-nnQX/view">
+                <i className="fa fa-desktop"></i></a>
+              <a href="https://github.com/amgaudet/employee-tracker" >
+                <i className="fa fa-github"></i></a>
+            </div>
           </div>
         </div>
       </div>
