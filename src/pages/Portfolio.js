@@ -21,7 +21,7 @@ const Portfolio = () => {
               Yelp for trails in Western North Carolina
             </div>
             <div className="duty">
-              Group Project. Primary duties included Back End APIs using MongoDB, Mongoose. Express Router
+              Group Project. Primary duties included Back End APIs using MongoDB, Mongoose. Express server
             </div>
           </div>
           <img className="card-img" src={trails} alt='Trail hiking app'>
@@ -36,6 +36,14 @@ const Portfolio = () => {
 
         <div className="card mx-3 my-5">
           <h3 className="text-center">Rapid Resume</h3>
+          <div className="card-body details flex">
+            <div className="summary">
+              App designed to allow users to quickly create a professional resume based on user input
+            </div>
+            <div className="duty">
+              Group Project. Primary duties included Back End APIs using MongoDB, GraphQL, and connecting to ReactJS interface
+            </div>
+          </div>
           <img className="card-img" src={resume} alt='Resume Builder'>
           </img>
           <div className="card-body  d-flex justify-content-around">
@@ -48,6 +56,14 @@ const Portfolio = () => {
 
         <div className="card mx-3 my-5">
           <h3 className="text-center">Pokemon Builder</h3>
+          <div className="card-body details flex">
+            <div className="summary">
+              App to search Pokemon APIs and create/save a custom built team
+            </div>
+            <div className="duty">
+              Group Project. Primary duties included front end JavaScript logic, fetching API data and displaying relevant data to client
+            </div>
+          </div>
           <img className="card-img" src={pokemon} alt='Pokemon Team Builder'>
           </img>
           <div className="card-body  d-flex justify-content-around">
@@ -60,6 +76,14 @@ const Portfolio = () => {
 
         <div className="card mx-3 my-5">
           <h3 className="text-center">Fitness Tracker</h3>
+          <div className="card-body details flex">
+            <div className="summary">
+              App used to log and record recent work outs
+            </div>
+            <div className="duty">
+              Tech used: JavaScript, express server, MongoDB, and mongoose
+            </div>
+          </div>
           <img className="card-img" src={fitness} alt='Fitness Tracker'>
           </img>
           <div className="card-body  d-flex justify-content-around">
@@ -72,6 +96,12 @@ const Portfolio = () => {
 
         <div className="card mx-3 my-5">
           <h3 className="text-center">Offline Budget Tracker</h3>
+          <div className="summary">
+            App used to keep track of recent transactions on and offline
+          </div>
+          <div className="duty">
+            Tech used: JavaScript, express server, MongoDB, and IndexedDB
+          </div>
           <img className="card-img" src={budget} alt='offline budget tracker'>
           </img>
           <div className="card-body  d-flex justify-content-around">
@@ -84,7 +114,13 @@ const Portfolio = () => {
 
         <div>
           <div className="card mx-3 my-5">
-            <h3 className="text-center">Fitness Tracker</h3>
+            <h3 className="text-center">Employee Tracking System</h3>
+            <div className="summary">
+              Back End MySQL database application to store and edit employee information and deptartment hierarchy.
+            </div>
+            <div className="duty">
+              Tech used: JavaScript, MySQL, Inquirer, node.js
+            </div>
             <img className="card-img" src={employee} alt='Employee System'>
             </img>
             <div className="card-body  d-flex justify-content-around">
