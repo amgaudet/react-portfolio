@@ -16,7 +16,15 @@ const Portfolio = () => {
 
         <div className="card mx-3 my-5">
           <h3 className="text-center">Trail Hiking App</h3>
-          <img classname="card-img" src={trails} alt='Trail hiking app'>
+          <div className="card-body details flex">
+            <div className="summary">
+              Yelp for trails in Western North Carolina
+            </div>
+            <div className="duty">
+              Group Project. Primary duties included Back End APIs using MongoDB, Mongoose. Express Router
+            </div>
+          </div>
+          <img className="card-img" src={trails} alt='Trail hiking app'>
           </img>
           <div className="card-body d-flex justify-content-around">
             <a href="https://western-nc-trail-app.herokuapp.com/">
@@ -28,7 +36,7 @@ const Portfolio = () => {
 
         <div className="card mx-3 my-5">
           <h3 className="text-center">Rapid Resume</h3>
-          <img classname="card-img" src={resume} alt='Resume Builder'>
+          <img className="card-img" src={resume} alt='Resume Builder'>
           </img>
           <div className="card-body  d-flex justify-content-around">
             <a href="https://rapid-resume.herokuapp.com/">
@@ -40,7 +48,7 @@ const Portfolio = () => {
 
         <div className="card mx-3 my-5">
           <h3 className="text-center">Pokemon Builder</h3>
-          <img classname="card-img" src={pokemon} alt='Pokemon Team Builder'>
+          <img className="card-img" src={pokemon} alt='Pokemon Team Builder'>
           </img>
           <div className="card-body  d-flex justify-content-around">
             <a href="https://amgaudet.github.io/pokemon-team-builder/index.html">
@@ -52,7 +60,7 @@ const Portfolio = () => {
 
         <div className="card mx-3 my-5">
           <h3 className="text-center">Fitness Tracker</h3>
-          <img classname="card-img" src={fitness} alt='Fitness Tracker'>
+          <img className="card-img" src={fitness} alt='Fitness Tracker'>
           </img>
           <div className="card-body  d-flex justify-content-around">
             <a href="https://boiling-spire-57268.herokuapp.com/">
@@ -64,7 +72,7 @@ const Portfolio = () => {
 
         <div className="card mx-3 my-5">
           <h3 className="text-center">Offline Budget Tracker</h3>
-          <img classname="card-img" src={budget} alt='offline budget tracker'>
+          <img className="card-img" src={budget} alt='offline budget tracker'>
           </img>
           <div className="card-body  d-flex justify-content-around">
             <a href="https://vibrant-fromage-51209.herokuapp.com/">
@@ -77,7 +85,7 @@ const Portfolio = () => {
         <div>
           <div className="card mx-3 my-5">
             <h3 className="text-center">Fitness Tracker</h3>
-            <img classname="card-img" src={employee} alt='Employee System'>
+            <img className="card-img" src={employee} alt='Employee System'>
             </img>
             <div className="card-body  d-flex justify-content-around">
               <a href="https://drive.google.com/file/d/107zkEjG-axPE-JLvjdpQiwGX4N8-nnQX/view">
