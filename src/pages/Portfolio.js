@@ -96,11 +96,13 @@ const Portfolio = () => {
 
         <div className="card mx-3 my-5">
           <h3 className="text-center">Offline Budget Tracker</h3>
-          <div className="summary">
-            App used to keep track of recent transactions on and offline
-          </div>
-          <div className="duty">
-            Tech used: JavaScript, express server, MongoDB, and IndexedDB
+          <div className="card-body details flex">
+            <div className="summary">
+              App used to keep track of recent transactions on and offline
+            </div>
+            <div className="duty">
+              Tech used: JavaScript, express server, MongoDB, and IndexedDB
+            </div>
           </div>
           <img className="card-img" src={budget} alt='offline budget tracker'>
           </img>
@@ -115,11 +117,13 @@ const Portfolio = () => {
         <div>
           <div className="card mx-3 my-5">
             <h3 className="text-center">Employee Tracking System</h3>
-            <div className="summary">
-              Back End MySQL database application to store and edit employee information and deptartment hierarchy.
-            </div>
-            <div className="duty">
-              Tech used: JavaScript, MySQL, Inquirer, node.js
+            <div className="card-body details flex">
+              <div className="summary">
+                Back End MySQL database application to store and edit employee information and deptartment hierarchy.
+              </div>
+              <div className="duty">
+                Tech used: JavaScript, MySQL, Inquirer, node.js
+              </div>
             </div>
             <img className="card-img" src={employee} alt='Employee System'>
             </img>
