@@ -48,7 +48,8 @@ a:hover {
 }
 
 .navbar h1 {
-  font-weight: bold;
+  font-weight: bolder;
+  color: #03C4A1
 }
 
 .landing {
