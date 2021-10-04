@@ -21,7 +21,7 @@ function App() {
         <Route exact path='/portfolio'>
           <Portfolio />
         </Route>
-        <Route exact path='/react-portfolio'>
+        <Route exact path='/home'>
           <Home />
         </Route>
         <Route exact path='/contactme'>
